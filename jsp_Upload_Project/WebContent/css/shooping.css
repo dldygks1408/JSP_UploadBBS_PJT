@@ -1,0 +1,49 @@
+@charset "UTF-8";
+body{background: #e7e7e7;}
+
+#wrap{
+   margin: 10px;   
+}
+
+h1{
+   color: green; /* 글 색상 */
+}
+
+table{
+   width: 100%;
+   border-collapse: collapse;
+   font-size: 12px;
+   line-height: 24px;
+   background: #fefff2;
+}
+.record:hover{
+	background: #ffdbdb;
+}
+
+table td, th{ 
+   border: #d3d3d3 solid 1px;
+   padding: 5px;
+}
+
+th{
+   background: yellowgreen;
+}
+
+img{
+   width: 220px;
+   height: 300px;
+   display: flex;
+   margin: auto;
+}
+
+a{
+   text-decoration: none;
+   color: black;
+}
+
+a:hover{
+   text-decoration: underline;
+   color: green;
+   -webkit-transform: scale(1.2,1.2);
+   transform: scale(1.5,1.5);
+}
